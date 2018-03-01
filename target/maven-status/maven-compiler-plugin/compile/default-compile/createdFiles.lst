@@ -1,0 +1,14 @@
+de\tse\jaxb\examples\_03_ObjectToFile_Complex.class
+de\tse\jaxb\examples\dictionary\ObjectFactory.class
+de\tse\jaxb\examples\objects\Address.class
+de\tse\jaxb\examples\dictionary\package-info.class
+de\tse\jaxb\examples\objects\City.class
+de\tse\jaxb\examples\objects\SimplePerson.class
+de\tse\jaxb\examples\objects\Person.class
+de\tse\jaxb\examples\objects\Street.class
+de\tse\jaxb\examples\dictionary\DictionaryEntryType.class
+de\tse\jaxb\examples\dictionary\DictionaryEntryListType.class
+de\tse\jaxb\examples\_02_FileToObject.class
+de\tse\jaxb\examples\dictionary\Dictionary.class
+de\tse\jaxb\examples\_04_FileToObject_Complex_with_Schema.class
+de\tse\jaxb\examples\_01_ObjectToFile.class

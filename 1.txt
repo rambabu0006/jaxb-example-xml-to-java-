@@ -1,0 +1,1830 @@
+Apache Maven 3.2.5 (12a6b3acb947671f09b81f49094c53f426d8cea1; 2014-12-14T22:59:23+05:30)
+Maven home: D:\ram\maven3
+Java version: 1.8.0_60, vendor: Oracle Corporation
+Java home: D:\JDK8\jdk1.8.0_60\jre
+Default locale: en_SG, platform encoding: Cp1252
+OS name: "windows 7", version: "6.1", arch: "x86", family: "dos"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from D:\ram\maven3\conf\settings.xml
+[DEBUG] Reading user settings from D:\Users\rambabum\.m2\settings.xml
+[DEBUG] Using local repository at D:\m2
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for D:\m2
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project de.tse:jaxb-examples:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: de.tse:jaxb-examples:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jaxb-examples 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       de.tse:jaxb-examples:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:jaxb2-maven-plugin:2.2:xjc (xjc)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addGeneratedAnnotation default-value="false"/>
+  <arguments>${xjc.arguments}</arguments>
+  <clearOutputDir default-value="true"/>
+  <enableIntrospection default-value="false"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <execution default-value="${mojoExecution}"/>
+  <extension default-value="false">true</extension>
+  <failOnNoSchemas default-value="true"/>
+  <generateEpisode default-value="true"/>
+  <laxSchemaValidation default-value="false"/>
+  <noGeneratedHeaderComments default-value="false"/>
+  <noPackageLevelAnnotations default-value="false"/>
+  <outputDirectory default-value="${project.build.directory}/generated-sources/jaxb">src/main/java-gen/</outputDirectory>
+  <project default-value="${project}"/>
+  <quiet default-value="false"/>
+  <readOnly default-value="false"/>
+  <settings default-value="${settings}"/>
+  <skipXjc default-value="false">${xjc.skip}</skipXjc>
+  <sourceType default-value="XmlSchema"/>
+  <sources>
+    <source>src/main/resources/schemas/Dictionary.xsd</source>
+  </sources>
+  <staleFileDirectory default-value="${project.build.directory}/jaxb2"/>
+  <verbose default-value="false">${xjc.verbose}</verbose>
+  <xjbSources>
+    <xjbSource>src/main/resources/bindings</xjbSource>
+  </xjbSources>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:build-helper-maven-plugin:1.7:add-source (add-source)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <project>${project}</project>
+  <sources>
+    <source>src/main/java-gen</source>
+  </sources>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.8</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.8</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.4:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false">${jar.skipIfEmpty}</skipIfEmpty>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=1, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=15, ConflictResolver.conflictItemCount=1, DefaultDependencyCollector.collectTime=15, DefaultDependencyCollector.transformTime=31}
+[DEBUG] de.tse:jaxb-examples:jar:0.0.1-SNAPSHOT
+[DEBUG]    com.migesok:jaxb-java-time-adapters:jar:1.1.3:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jaxb-examples ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=63, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@10dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = D:\ram\jaxb-examples-master\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = D:\ram\jaxb-examples-master\target\classes
+[DEBUG]   (f) reportDirectory = D:\ram\jaxb-examples-master\target\site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = D:\ram\jaxb-examples-master\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting D:\ram\jaxb-examples-master\target
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\maven-status
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\maven-archiver\pom.properties
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\maven-archiver
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\jaxb2\.xjc-xjcStaleFlag
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\jaxb2
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\jaxb-examples-0.0.1-SNAPSHOT.jar
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\generated-sources\annotations
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\generated-sources
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\schemagen\META-INF\sun-jaxb.episode
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes\schemagen\META-INF
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\schemagen\Common.xsd
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes\schemagen
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\mydefinitions\xmldefs\dictionary\package-info.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\mydefinitions\xmldefs\dictionary\ObjectFactory.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\mydefinitions\xmldefs\dictionary\DictionaryType.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\mydefinitions\xmldefs\dictionary\DictionaryEntryType.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\mydefinitions\xmldefs\dictionary\DictionaryEntryListType.class
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes\mydefinitions\xmldefs\dictionary
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes\mydefinitions\xmldefs
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes\mydefinitions
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples\_04_FileToObject_Complex_with_Schema.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples\_03_ObjectToFile_Complex.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples\_02_FileToObject.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples\_01_ObjectToFile.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples\objects\Street.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples\objects\SimplePerson.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples\objects\Person.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples\objects\City.class
+[INFO] Deleting file D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples\objects\Address.class
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples\objects
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb\examples
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes\de\tse\jaxb
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes\de\tse
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes\de
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target\classes
+[INFO] Deleting directory D:\ram\jaxb-examples-master\target
+[DEBUG] Skipping non-existing directory D:\ram\jaxb-examples-master\target\classes
+[DEBUG] Skipping non-existing directory D:\ram\jaxb-examples-master\target\test-classes
+[DEBUG] Skipping non-existing directory D:\ram\jaxb-examples-master\target\site
+[INFO] 
+[INFO] --- jaxb2-maven-plugin:2.2:xjc (xjc) @ jaxb-examples ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=93, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=86, DefaultDependencyCollector.collectTime=601, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.codehaus.mojo:jaxb2-maven-plugin:jar:2.2:
+[DEBUG]    javax.xml.bind:jaxb-api:jar:2.2.11:compile
+[DEBUG]    org.glassfish.jaxb:jaxb-core:jar:2.2.11:compile
+[DEBUG]       org.glassfish.jaxb:txw2:jar:2.2.11:compile
+[DEBUG]       com.sun.istack:istack-commons-runtime:jar:2.21:compile
+[DEBUG]    org.glassfish.jaxb:jaxb-runtime:jar:2.2.11:compile
+[DEBUG]       org.jvnet.staxex:stax-ex:jar:1.7.6:compile
+[DEBUG]       com.sun.xml.fastinfoset:FastInfoset:jar:1.2.13:compile
+[DEBUG]    org.glassfish.jaxb:jaxb-xjc:jar:2.2.11:compile
+[DEBUG]       com.sun.xsom:xsom:jar:20140925:compile
+[DEBUG]          relaxngDatatype:relaxngDatatype:jar:20020414:compile
+[DEBUG]       org.glassfish.jaxb:codemodel:jar:2.2.11:compile
+[DEBUG]       com.sun.xml.bind.external:rngom:jar:2.2.11:compile
+[DEBUG]       com.sun.xml.dtd-parser:dtd-parser:jar:1.1:compile
+[DEBUG]       com.sun.istack:istack-commons-tools:jar:2.21:compile
+[DEBUG]          org.apache.ant:ant:jar:1.7.0:compile
+[DEBUG]             org.apache.ant:ant-launcher:jar:1.7.0:compile
+[DEBUG]    org.glassfish.jaxb:jaxb-jxc:jar:2.2.11:compile
+[DEBUG]    com.thoughtworks.qdox:qdox:jar:2.0-M3:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.22:compile
+[DEBUG]    org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG] Created new class realm plugin>org.codehaus.mojo:jaxb2-maven-plugin:2.2
+[DEBUG] Importing foreign packages into class realm plugin>org.codehaus.mojo:jaxb2-maven-plugin:2.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.codehaus.mojo:jaxb2-maven-plugin:2.2
+[DEBUG]   Included: org.codehaus.mojo:jaxb2-maven-plugin:jar:2.2
+[DEBUG]   Included: javax.xml.bind:jaxb-api:jar:2.2.11
+[DEBUG]   Included: org.glassfish.jaxb:jaxb-core:jar:2.2.11
+[DEBUG]   Included: org.glassfish.jaxb:txw2:jar:2.2.11
+[DEBUG]   Included: com.sun.istack:istack-commons-runtime:jar:2.21
+[DEBUG]   Included: org.glassfish.jaxb:jaxb-runtime:jar:2.2.11
+[DEBUG]   Included: org.jvnet.staxex:stax-ex:jar:1.7.6
+[DEBUG]   Included: com.sun.xml.fastinfoset:FastInfoset:jar:1.2.13
+[DEBUG]   Included: org.glassfish.jaxb:jaxb-xjc:jar:2.2.11
+[DEBUG]   Included: com.sun.xsom:xsom:jar:20140925
+[DEBUG]   Included: relaxngDatatype:relaxngDatatype:jar:20020414
+[DEBUG]   Included: org.glassfish.jaxb:codemodel:jar:2.2.11
+[DEBUG]   Included: com.sun.xml.bind.external:rngom:jar:2.2.11
+[DEBUG]   Included: com.sun.xml.dtd-parser:dtd-parser:jar:1.1
+[DEBUG]   Included: com.sun.istack:istack-commons-tools:jar:2.21
+[DEBUG]   Included: org.apache.ant:ant:jar:1.7.0
+[DEBUG]   Included: org.apache.ant:ant-launcher:jar:1.7.0
+[DEBUG]   Included: org.glassfish.jaxb:jaxb-jxc:jar:2.2.11
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M3
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.22
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:3.0
+[DEBUG]   Excluded: org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-settings-builder:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-model-builder:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-aether-provider:jar:3.0
+[DEBUG]   Excluded: org.sonatype.aether:aether-impl:jar:1.7
+[DEBUG]   Excluded: org.sonatype.aether:aether-spi:jar:1.7
+[DEBUG]   Excluded: org.sonatype.aether:aether-api:jar:1.7
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-classworlds:jar:2.2.3
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:3.0
+[DEBUG] Configuring mojo org.codehaus.mojo:jaxb2-maven-plugin:2.2:xjc from plugin realm ClassRealm[plugin>org.codehaus.mojo:jaxb2-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@10dea4e]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:jaxb2-maven-plugin:2.2:xjc' with basic configurator -->
+[DEBUG]   (f) addGeneratedAnnotation = false
+[DEBUG]   (f) arguments = []
+[DEBUG]   (f) clearOutputDir = true
+[DEBUG]   (f) enableIntrospection = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) execution = org.codehaus.mojo:jaxb2-maven-plugin:2.2:xjc {execution: xjc}
+[DEBUG]   (f) extension = true
+[DEBUG]   (f) failOnNoSchemas = true
+[DEBUG]   (f) generateEpisode = true
+[DEBUG]   (f) laxSchemaValidation = false
+[DEBUG]   (f) noGeneratedHeaderComments = false
+[DEBUG]   (f) noPackageLevelAnnotations = false
+[DEBUG]   (f) outputDirectory = D:\ram\jaxb-examples-master\src\main\java-gen
+[DEBUG]   (f) project = MavenProject: de.tse:jaxb-examples:0.0.1-SNAPSHOT @ D:\ram\jaxb-examples-master\pom.xml
+[DEBUG]   (f) quiet = false
+[DEBUG]   (f) readOnly = false
+[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@679465
+[DEBUG]   (f) skipXjc = false
+[DEBUG]   (f) sourceType = XmlSchema
+[DEBUG]   (f) sources = [src/main/resources/schemas/Dictionary.xsd]
+[DEBUG]   (f) staleFileDirectory = D:\ram\jaxb-examples-master\target\jaxb2
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) xjbSources = [src/main/resources/bindings]
+[DEBUG] -- end configuration --
+[DEBUG] 
++=================== [Brief Plugin Build Dependency Information]
+|
+| Note: These dependencies pertain to what was used to build *the plugin*.
+|       Check project dependencies to see the ones used in *your build*.
+|
+|
+| Plugin's own information
+|     GroupId    : org.codehaus.mojo
+|     ArtifactID : jaxb2-maven-plugin
+|     Version    : 2.2
+|     Buildtime  : Tue Aug 11 01:16:02 CEST 2015
+|
+| Plugin's JAXB-related dependencies
+|
+|   1) [jaxb-api]
+|     GroupId    : javax.xml.bind
+|     ArtifactID : jaxb-api
+|     Version    : 2.2.11
+|     Scope      : compile
+|     Type       : jar
+|
+|   2) [codemodel]
+|     GroupId    : org.glassfish.jaxb
+|     ArtifactID : codemodel
+|     Version    : 2.2.11
+|     Scope      : compile
+|     Type       : jar
+|
+|   3) [jaxb-core]
+|     GroupId    : org.glassfish.jaxb
+|     ArtifactID : jaxb-core
+|     Version    : 2.2.11
+|     Scope      : compile
+|     Type       : jar
+|
+|   4) [jaxb-jxc]
+|     GroupId    : org.glassfish.jaxb
+|     ArtifactID : jaxb-jxc
+|     Version    : 2.2.11
+|     Scope      : compile
+|     Type       : jar
+|
+|   5) [jaxb-runtime]
+|     GroupId    : org.glassfish.jaxb
+|     ArtifactID : jaxb-runtime
+|     Version    : 2.2.11
+|     Scope      : compile
+|     Type       : jar
+|
+|   6) [jaxb-xjc]
+|     GroupId    : org.glassfish.jaxb
+|     ArtifactID : jaxb-xjc
+|     Version    : 2.2.11
+|     Scope      : compile
+|     Type       : jar
+|
+|   7) [txw2]
+|     GroupId    : org.glassfish.jaxb
+|     ArtifactID : txw2
+|     Version    : 2.2.11
+|     Scope      : compile
+|     Type       : jar
+|
++=================== [End Brief Plugin Build Dependency Information]
+
+
+[DEBUG] StaleFile [D:\ram\jaxb-examples-master\target\jaxb2\.xjc-xjcStaleFlag] not found. JAXB (re-)generation required.
+[DEBUG] Adding URL [file:/D:/ram/jaxb-examples-master/target/classes]
+[DEBUG] Adding URL [file:/D:/m2/com/migesok/jaxb-java-time-adapters/1.1.3/jaxb-java-time-adapters-1.1.3.jar]
+[DEBUG] Using explicitly configured encoding [UTF-8]
+[DEBUG] ToolExecutionEnvironment setup -- Starting.
+[DEBUG] ToolExecutionEnvironment setup -- Done.
+[WARNING] Configured encoding [UTF-8] differs from encoding given in system property 'file.encoding' [Cp1252]
+[DEBUG] Using explicitly configured encoding [UTF-8]
+[DEBUG] Accepted configured xjbSources [D:\ram\jaxb-examples-master\src\main\resources\bindings]
+[DEBUG]  [1 existing xjbSources] ...
+[DEBUG]    1/1: D:\ram\jaxb-examples-master\src\main\resources\bindings
+[DEBUG]  ... End [1 existing xjbSources]
+[DEBUG] Accepted file [D:\ram\jaxb-examples-master\src\main\resources\bindings\DictionaryBinding.xjb]
+[DEBUG] Accepted configured sources [D:\ram\jaxb-examples-master\src\main\resources\schemas\Dictionary.xsd]
+[DEBUG]  [1 existing sources] ...
+[DEBUG]    1/1: D:\ram\jaxb-examples-master\src\main\resources\schemas\Dictionary.xsd
+[DEBUG]  ... End [1 existing sources]
+[DEBUG] 
++=================== [Filtered sources]
+|
+| 2 Exclude patterns:
+| [1/2]: Filter [PatternFileFilter]
+|        Processes nulls: [false]
+|        Accept on match: [true]
+|        Initialized    : [true]
+|        3 regularExpressions :
+|         [1/3]: (\p{javaLetterOrDigit}|\p{Punct})+README.*
+|         [2/3]: (\p{javaLetterOrDigit}|\p{Punct})+\.xml
+|         [3/3]: (\p{javaLetterOrDigit}|\p{Punct})+\.txt
+| [2/2]: Filter [PatternFileFilter]
+|        Processes nulls: [false]
+|        Accept on match: [true]
+|        Initialized    : [true]
+|        1 regularExpressions :
+|         [1/1]: (\p{javaLetterOrDigit}|\p{Punct})+\.xjb
+|
+| 1 Standard Directories:
+| [1/1]: src/main/xsd
+|
+| 1 Results:
+| [1/1]: file:/D:/ram/jaxb-examples-master/src/main/resources/schemas/Dictionary.xsd
+|
++=================== [End Filtered sources]
+
+
+[DEBUG] 
++=================== [13 XJC Arguments]
+|
+| [0]: -xmlschema
+| [1]: -extension
+| [2]: -httpproxy
+| [3]: rambabum:ramouni@1604@10.5.1.26:8080
+| [4]: -encoding
+| [5]: UTF-8
+| [6]: -d
+| [7]: D:\ram\jaxb-examples-master\src\main\java-gen
+| [8]: -episode
+| [9]: D:\ram\jaxb-examples-master\src\main\java-gen\META-INF\sun-jaxb.episode
+| [10]: -b
+| [11]: D:\ram\jaxb-examples-master\src\main\resources\bindings\DictionaryBinding.xjb
+| [12]: /D:/ram/jaxb-examples-master/src/main/resources/schemas/Dictionary.xsd
+|
++=================== [End 13 XJC Arguments]
+
+
+[DEBUG] Created episode directory [D:\ram\jaxb-examples-master\src\main\java-gen\META-INF]: true
+[DEBUG] 
++=================== [System properties]
+|
+| [awt.toolkit]: sun.awt.windows.WToolkit
+| [basedir]: D:\ram\jaxb-examples-master
+| [classworlds.conf]: D:/ram/maven3/bin/m2.conf
+| [file.encoding]: Cp1252
+| [file.encoding.pkg]: sun.io
+| [file.separator]: \
+| [guice.disable.misplaced.annotation.check]: true
+| [java.awt.graphicsenv]: sun.awt.Win32GraphicsEnvironment
+| [java.awt.printerjob]: sun.awt.windows.WPrinterJob
+| [java.class.path]: D:/ram/maven3/boot/plexus-classworlds-2.5.2.jar
+| [java.class.version]: 52.0
+| [java.endorsed.dirs]: D:\JDK8\jdk1.8.0_60\jre\lib\endorsed
+| [java.ext.dirs]: D:\JDK8\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+| [java.home]: D:\JDK8\jdk1.8.0_60\jre
+| [java.io.tmpdir]: D:\Users\rambabum\AppData\Local\Temp\
+| [java.library.path]: D:\JDK8\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\ram\maven3\bin\;D:\JDK8\jdk1.8.0_60\bin\;D:\ram\maven3\bin\;D:\JDK8\jdk1.8.0_60\bin\;D:\Users\rambabum\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\Users\rambabum\bin;C:\Java\jdk1.6.0_24\bin;.;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\IBM\Personal Communications;C:\Program Files (x86)\IBM\Trace Facility;C:\Java\jdk1.6.0_24\bin;.;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\IBM\Personal Communications;C:\Program Files (x86)\IBM\Trace Facility;C:\Program Files\IBM9\SDP\jdk\jre\bin\bin;.;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.;.;.
+| [java.runtime.name]: Java(TM) SE Runtime Environment
+| [java.runtime.version]: 1.8.0_60-b27
+| [java.specification.name]: Java Platform API Specification
+| [java.specification.vendor]: Oracle Corporation
+| [java.specification.version]: 1.8
+| [java.vendor]: Oracle Corporation
+| [java.vendor.url]: http://java.oracle.com/
+| [java.vendor.url.bug]: http://bugreport.sun.com/bugreport/
+| [java.version]: 1.8.0_60
+| [java.vm.info]: mixed mode
+| [java.vm.name]: Java HotSpot(TM) Client VM
+| [java.vm.specification.name]: Java Virtual Machine Specification
+| [java.vm.specification.vendor]: Oracle Corporation
+| [java.vm.specification.version]: 1.8
+| [java.vm.vendor]: Oracle Corporation
+| [java.vm.version]: 25.60-b23
+| [line.separator]: 
+
+| [maven.home]: D:\ram\maven3
+| [org.slf4j.simpleLogger.defaultLogLevel]: debug
+| [os.arch]: x86
+| [os.name]: Windows 7
+| [os.version]: 6.1
+| [path.separator]: ;
+| [sun.arch.data.model]: 32
+| [sun.boot.class.path]: D:\JDK8\jdk1.8.0_60\jre\lib\resources.jar;D:\JDK8\jdk1.8.0_60\jre\lib\rt.jar;D:\JDK8\jdk1.8.0_60\jre\lib\sunrsasign.jar;D:\JDK8\jdk1.8.0_60\jre\lib\jsse.jar;D:\JDK8\jdk1.8.0_60\jre\lib\jce.jar;D:\JDK8\jdk1.8.0_60\jre\lib\charsets.jar;D:\JDK8\jdk1.8.0_60\jre\lib\jfr.jar;D:\JDK8\jdk1.8.0_60\jre\classes
+| [sun.boot.library.path]: D:\JDK8\jdk1.8.0_60\jre\bin
+| [sun.cpu.endian]: little
+| [sun.cpu.isalist]: pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+| [sun.desktop]: windows
+| [sun.io.unicode.encoding]: UnicodeLittle
+| [sun.java.command]: org.codehaus.plexus.classworlds.launcher.Launcher clean install -X
+| [sun.java.launcher]: SUN_STANDARD
+| [sun.jnu.encoding]: Cp1252
+| [sun.management.compiler]: HotSpot Client Compiler
+| [sun.os.patch.level]: Service Pack 1
+| [user.country]: SG
+| [user.dir]: D:\ram\jaxb-examples-master
+| [user.home]: D:\Users\rambabum
+| [user.language]: en
+| [user.name]: rambabum
+| [user.script]: 
+| [user.timezone]: Asia/Calcutta
+| [user.variant]: 
+|
++=================== [End System properties]
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM com.sun.xml.bind.v2.util.XmlFactory createSchemaFactory
+FINE: SchemaFactory instance: com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory@1d9efe0
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM com.sun.xml.bind.v2.util.XmlFactory allowExternalAccess
+FINE: Property "http://javax.xml.XMLConstants/property/accessExternalSchema" is supported and has been successfully set by used JAXP implementation.
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM com.sun.xml.bind.v2.util.XmlFactory allowExternalDTDAccess
+FINE: Property "http://javax.xml.XMLConstants/property/accessExternalDTD" is supported and has been successfully set by used JAXP implementation.
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM com.sun.xml.bind.v2.util.XmlFactory createDocumentBuilderFactory
+FINE: DocumentBuilderFactory instance: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl@db847e
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM com.sun.xml.bind.v2.util.XmlFactory createParserFactory
+FINE: SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@140abb5
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM com.sun.xml.bind.v2.util.XmlFactory createXPathFactory
+FINE: XPathFactory instance: com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl@abbb29
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM com.sun.xml.bind.v2.util.XmlFactory createParserFactory
+FINE: SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@1427b69
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM com.sun.xml.xsom.parser.JAXPParser allowFileAccess
+FINE: Property "http://javax.xml.XMLConstants/property/accessExternalSchema" is supported and has been successfuly set by used JAXP implementation.
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Trying to locate com/sun/tools/xjc/reader/xmlschema/bindinfo/jaxb.properties
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Checking system property javax.xml.bind.context.factory
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Checking system property javax.xml.bind.JAXBContext
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE:   not found
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder lookupJaxbContextUsingOsgiServiceLoader
+FINE: Unable to find from OSGi: javax.xml.bind.JAXBContext
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Checking META-INF/services
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder find
+FINE: Reading jar:file:/D:/m2/org/glassfish/jaxb/jaxb-runtime/2.2.11/jaxb-runtime-2.2.11.jar!/META-INF/services/javax.xml.bind.JAXBContext
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder safeLoadClass
+FINE: Trying to load com.sun.xml.bind.v2.ContextFactory
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM javax.xml.bind.ContextFinder newInstance
+FINE: loaded com.sun.xml.bind.v2.ContextFactory from jar:file:/D:/m2/org/glassfish/jaxb/jaxb-runtime/2.2.11/jaxb-runtime-2.2.11.jar!/com/sun/xml/bind/v2/ContextFactory.class
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM com.sun.xml.bind.v2.ContextFactory createContext
+FINE: Property com.sun.xml.bind.XmlAccessorFactoryis not active.  Using JAXB's implementation
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:48 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.CollectionTypeAttribute.collectionType
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.util.List com.sun.tools.xjc.reader.xmlschema.bindinfo.BindInfo$Documentation.contents
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.util.List com.sun.tools.xjc.reader.xmlschema.bindinfo.BindInfo$AppInfo.contents
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIDom.type
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for public java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIFactoryMethod.name
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIXDom.type
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for public java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIEnum.className
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for public java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIEnum.ref
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIEnum$BIEnumMember2.value
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory get
+FINE: Using optimized TransducedAccessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding#isJavaNamingConventionEnabled
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory get
+FINE: Using optimized TransducedAccessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding#simpleTypeSubstitution
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.EnumMemberMode com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.generateEnumMemberName
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.generator.bean.ImplStructureStrategy com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.codeGenerationStrategy
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for public java.lang.Long com.sun.tools.xjc.reader.xmlschema.bindinfo.BISerializable.uid
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding$ClassNameBean com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.superClass
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding$ClassNameBean.name
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding$ClassNameBean com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.superInterface
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.simpleMode
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.simpleMode
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.treatRestrictionLikeNewType
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.treatRestrictionLikeNewType
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory get
+FINE: Using optimized TransducedAccessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding#generateElementClass
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory get
+FINE: Using optimized TransducedAccessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding#generateMixedExtensions
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.Boolean com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.generateElementProperty
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.Boolean com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.generateElementProperty
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory get
+FINE: Using optimized TransducedAccessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding#choiceContentProperty
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.OptionalPropertyMode com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.optionalProperty
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory get
+FINE: Using optimized TransducedAccessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding#defaultEnumMemberSizeCap
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.LocalScoping com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.flattenClasses
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.noMarshaller
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.noMarshaller
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.noUnmarshaller
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.noUnmarshaller
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.noValidator
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.noValidator
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.noValidatingUnmarshaller
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.noValidatingUnmarshaller
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding$TypeSubstitutionElement com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.typeSubstitution
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding$TypeSubstitutionElement.type
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for javax.xml.namespace.QName com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding$GlobalStandardConversion.xmlType
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for javax.xml.namespace.QName com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding$GlobalVendorConversion.xmlType
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding$UnderscoreBinding com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.getUnderscoreBinding() and void com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding.setUnderscoreBinding(com.sun.tools.xjc.reader.xmlschema.bindinfo.BIGlobalBinding$UnderscoreBinding)
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.CollectionTypeAttribute.collectionType
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BIConversion com.sun.tools.xjc.reader.xmlschema.bindinfo.BIProperty$BaseTypeBean.conv
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BIProperty$BaseTypeBean.name
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$NamingRule com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$NameRules.typeName
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$NamingRule com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$NameRules.elementName
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$NamingRule com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$NameRules.attributeName
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$NamingRule com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$NameRules.modelGroupName
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$NamingRule com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$NameRules.anonymousTypeName
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$PackageInfo.name
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$PackageInfo.javadoc
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory get
+FINE: Using optimized Accessor for java.lang.String com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding$PackageInfo.javadoc
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory get
+FINE: Using optimized TransducedAccessor for com.sun.tools.xjc.reader.xmlschema.bindinfo.BISchemaBinding#map
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startDocument
+FINER: SAXConnector.startDocument
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: xs:http://www.w3.org/2001/XMLSchema
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: p797973_:http://java.sun.com/xml/ns/jaxb
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: p676946_:http://java.sun.com/xml/ns/jaxb/xjc
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: dct:http://xmldefs.mydefinitions/dictionary
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startElement
+FINER: SAXConnector.startElement: http://www.w3.org/2001/XMLSchema:annotation:xs:annotation, attrs: com.sun.xml.xsom.impl.parser.state.AttributesImpl@19de014
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startElement
+FINER: SAXConnector.startElement: http://www.w3.org/2001/XMLSchema:appinfo:xs:appinfo, attrs: org.xml.sax.helpers.AttributesImpl@41d037
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: xsd:http://www.w3.org/2001/XMLSchema
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: xjc:http://java.sun.com/xml/ns/jaxb/xjc
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: jaxb:http://java.sun.com/xml/ns/jaxb
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: :
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startElement
+FINER: SAXConnector.startElement: http://java.sun.com/xml/ns/jaxb:globalBindings:jaxb:globalBindings, attrs: org.xml.sax.helpers.AttributesImpl@41d037
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.util.XmlFactory createSchemaFactory
+FINE: SchemaFactory instance: com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory@234078
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.util.XmlFactory allowExternalAccess
+FINE: Property "http://javax.xml.XMLConstants/property/accessExternalSchema" is supported and has been successfully set by used JAXP implementation.
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startElement
+FINER: SAXConnector.startElement: http://java.sun.com/xml/ns/jaxb/xjc:simple:xjc:simple, attrs: org.xml.sax.helpers.AttributesImpl@41d037
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endElement
+FINER: SAXConnector.startElement: http://java.sun.com/xml/ns/jaxb/xjc:simple:xjc:simple
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endElement
+FINER: SAXConnector.startElement: http://java.sun.com/xml/ns/jaxb:globalBindings:jaxb:globalBindings
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: xsd
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: xjc
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: jaxb
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: 
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: xsd:http://www.w3.org/2001/XMLSchema
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: xjc:http://java.sun.com/xml/ns/jaxb/xjc
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: jaxb:http://java.sun.com/xml/ns/jaxb
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startPrefixMapping
+FINER: SAXConnector.startPrefixMapping: :
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startElement
+FINER: SAXConnector.startElement: http://java.sun.com/xml/ns/jaxb:schemaBindings:jaxb:schemaBindings, attrs: org.xml.sax.helpers.AttributesImpl@41d037
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector startElement
+FINER: SAXConnector.startElement: http://java.sun.com/xml/ns/jaxb:package:jaxb:package, attrs: org.xml.sax.helpers.AttributesImpl@41d037
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endElement
+FINER: SAXConnector.startElement: http://java.sun.com/xml/ns/jaxb:package:jaxb:package
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endElement
+FINER: SAXConnector.startElement: http://java.sun.com/xml/ns/jaxb:schemaBindings:jaxb:schemaBindings
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: xsd
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: xjc
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: jaxb
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: 
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endElement
+FINER: SAXConnector.startElement: http://www.w3.org/2001/XMLSchema:appinfo:xs:appinfo
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endElement
+FINER: SAXConnector.startElement: http://www.w3.org/2001/XMLSchema:annotation:xs:annotation
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: xs
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: p797973_
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: p676946_
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endPrefixMapping
+FINER: SAXConnector.endPrefixMapping: dct
+
+[DEBUG] [SchemaGen]: Jan 04, 2018 4:59:49 PM com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector endDocument
+FINER: SAXConnector.endDocument
+
+[DEBUG] Processing file [0/5]: de\tse\jaxb\examples\dictionary\Dictionary.java
+[DEBUG] Processing file [1/5]: de\tse\jaxb\examples\dictionary\DictionaryEntryListType.java
+[DEBUG] Processing file [2/5]: de\tse\jaxb\examples\dictionary\DictionaryEntryType.java
+[DEBUG] Processing file [3/5]: de\tse\jaxb\examples\dictionary\ObjectFactory.java
+[DEBUG] Processing file [4/5]: de\tse\jaxb\examples\dictionary\package-info.java
+[DEBUG] ToolExecutionEnvironment restore -- Starting.
+[DEBUG] ToolExecutionEnvironment restore -- Done.
+[DEBUG] Created staleFile [D:\ram\jaxb-examples-master\target\jaxb2\.xjc-xjcStaleFlag]
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ jaxb-examples ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=59, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=23, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=59, DefaultDependencyCollector.collectTime=187, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.codehaus.mojo:build-helper-maven-plugin:jar:1.7:
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.2:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[DEBUG] Created new class realm plugin>org.codehaus.mojo:build-helper-maven-plugin:1.7
+[DEBUG] Importing foreign packages into class realm plugin>org.codehaus.mojo:build-helper-maven-plugin:1.7
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.codehaus.mojo:build-helper-maven-plugin:1.7
+[DEBUG]   Included: org.codehaus.mojo:build-helper-maven-plugin:jar:1.7
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: junit:junit:jar:3.8.2
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG] Configuring mojo org.codehaus.mojo:build-helper-maven-plugin:1.7:add-source from plugin realm ClassRealm[plugin>org.codehaus.mojo:build-helper-maven-plugin:1.7, parent: sun.misc.Launcher$AppClassLoader@10dea4e]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:build-helper-maven-plugin:1.7:add-source' with basic configurator -->
+[DEBUG]   (f) project = MavenProject: de.tse:jaxb-examples:0.0.1-SNAPSHOT @ D:\ram\jaxb-examples-master\pom.xml
+[DEBUG]   (f) sources = [D:\ram\jaxb-examples-master\src\main\java-gen]
+[DEBUG] -- end configuration --
+[INFO] Source directory: D:\ram\jaxb-examples-master\src\main\java-gen added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jaxb-examples ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=79, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@10dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = D:\ram\jaxb-examples-master\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: de.tse:jaxb-examples:0.0.1-SNAPSHOT @ D:\ram\jaxb-examples-master\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: D:\ram\jaxb-examples-master\src\main\resources-gen, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7d8516
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.OLDPWD=D:/ram/jaxb-examples-master, file.encoding.pkg=sun.io, env.ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal, version.build-helper-maven-plugin=1.7, java.home=D:\JDK8\jdk1.8.0_60\jre, env.DISPLAY=needs-to-be-defined, env.PROCESSOR_ARCHITEW6432=AMD64, env.VIEWCLIENT_CLIENT_ID=BAAAAN3vvmNwYjmirS4Sv8+llmQ=, classworlds.conf=D:/ram/maven3/bin/m2.conf, env.PCOMM_ROOT=C:\Program Files (x86)\IBM\Personal Communications\, java.endorsed.dirs=D:\JDK8\jdk1.8.0_60\jre\lib\endorsed, env.USERNAME=rambabum, sun.os.patch.level=Service Pack 1, java.vendor.url=http://java.oracle.com/, env.INCLUDE=C:\PROGRA~2\IBM\SQLLIB\INCLUDE;C:\PROGRA~2\IBM\SQLLIB\LIB, env.COMPUTERNAME=CBGEBZ1LC1-011, env.PRINTER=Send To OneNote 2010, java.version=1.8.0_60, env.VIEWCLIENT_IP_ADDRESS=10.216.48.100, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.USERPROFILE=D:\Users\rambabum, env.VIEWCLIENT_BROKER_URL=https://vdi-dev.corp.dbs.com:443, env.VIEWCLIENT_TYPE=Linux, env.PLINK_PROTOCOL=ssh, env.VIEWCLIENT_LANGUAGE=en_US.UTF-8, user.name=rambabum, env.LANG=en_US.UTF-8, sun.io.unicode.encoding=UnicodeLittle, sun.jnu.encoding=Cp1252, java.runtime.name=Java(TM) SE Runtime Environment, env.VIEWCLIENT_LAUNCH_ID=CBGEBZ1LC1, env.LOCALAPPDATA=D:\Users\rambabum\AppData\Local, env.SSH_ASKPASS=C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, env.VIEWCLIENT_TZID=Asia/Singapore, env.DB2INSTANCE=DB2, java.specification.name=Java Platform API Specification, user.timezone=Asia/Calcutta, user.script=, path.separator=;, env.MAVEN_CMD_LINE_ARGS=clean install -X, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 0, GenuineIntel, file.encoding=Cp1252, env.VIEWCLIENT_MAC_ADDRESS=C8:D3:FF:39:45:6B, env.HOME=D:\Users\rambabum, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, env.MANPATH=C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man, env.NUMBER_OF_PROCESSORS=2, env.APPDATA=D:\Users\rambabum\AppData\Roaming, env.WINDIR=C:\Windows, env.HOSTNAME=CBGEBZ1LC1-011, env.VIEWCLIENT_BROKER_GATEWAYTYPE=SG-cohosted, java.io.tmpdir=D:\Users\rambabum\AppData\Local\Temp\, user.language=en, line.separator=
+, env.VIEWCLIENT_BROKER_GATEWAYLOCATION=Internal, env.COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files, java.vm.info=mixed mode, env.DEFLOGDIR=C:\ProgramData\McAfee\DesktopProtection, sun.desktop=windows, java.vm.specification.name=Java Virtual Machine Specification, env.VIEWCLIENT_BROKER_DNS_NAME=W01SNXVDACS1A.reg1.1bank.dbs.com, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, version.jaxb-java-time-adapters=1.1.3, env.LOGONSERVER=\\W01G1BNKDCS0116, env.PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, env.VIEWCLIENT_BROKER_USERNAME=rambabum, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.PUBLIC=C:\Users\Public, env.USERDOMAIN=REG1, env.PROCESSOR_LEVEL=6, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.CLASSPATH=.;C:\PROGRA~2\IBM\SQLLIB\java\db2java.zip;C:\PROGRA~2\IBM\SQLLIB\java\db2jcc.jar;C:\PROGRA~2\IBM\SQLLIB\java\sqlj.zip;C:\PROGRA~2\IBM\SQLLIB\java\db2jcc_license_cu.jar;C:\PROGRA~2\IBM\SQLLIB\bin;C:\PROGRA~2\IBM\SQLLIB\java\common.jar, os.name=Windows 7, java.specification.vendor=Oracle Corporation, env.TMP=D:\Users\rambabum\AppData\Local\Temp, env.TERM=xterm, java.vm.name=Java HotSpot(TM) Client VM, env.VIEWCLIENT_MACHINE_NAME=HPc8d3ff39456b, env.OS=Windows_NT, java.library.path=D:\JDK8\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\ram\maven3\bin\;D:\JDK8\jdk1.8.0_60\bin\;D:\ram\maven3\bin\;D:\JDK8\jdk1.8.0_60\bin\;D:\Users\rambabum\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\Users\rambabum\bin;C:\Java\jdk1.6.0_24\bin;.;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\IBM\Personal Communications;C:\Program Files (x86)\IBM\Trace Facility;C:\Java\jdk1.6.0_24\bin;.;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\IBM\Personal Communications;C:\Program Files (x86)\IBM\Trace Facility;C:\Program Files\IBM9\SDP\jdk\jre\bin\bin;.;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.;.;., env.PROGRAMW6432=C:\Program Files, env.PATH=D:\ram\maven3\bin\;D:\JDK8\jdk1.8.0_60\bin\;D:\ram\maven3\bin\;D:\JDK8\jdk1.8.0_60\bin\;D:\Users\rambabum\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\Users\rambabum\bin;C:\Java\jdk1.6.0_24\bin;.;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\IBM\Personal Communications;C:\Program Files (x86)\IBM\Trace Facility;C:\Java\jdk1.6.0_24\bin;.;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\IBM\Personal Communications;C:\Program Files (x86)\IBM\Trace Facility;C:\Program Files\IBM9\SDP\jdk\jre\bin\bin;.;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.;., env.INFOPATH=C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info, java.class.version=52.0, env.SHLVL=1, env.VIEWCLIENT_PROTOCOL=PCOIP, env.HOMEDRIVE=D:, env.SYSTEMROOT=C:\Windows, env.VIEWCLIENT_WINDOWS_TIMEZONE=Singapore Standard Time, env.COMSPEC=C:\Windows\system32\cmd.exe, sun.boot.library.path=D:\JDK8\jdk1.8.0_60\jre\bin, project.build.sourceEncoding=UTF-8, env.SYSTEMDRIVE=C:, env.PROCESSOR_REVISION=3f00, env.VSEDEFLOGDIR=C:\ProgramData\McAfee\DesktopProtection, sun.management.compiler=HotSpot Client Compiler, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, user.variant=, env.VIEWCLIENT_BROKER_TUNNELED=false, env.M3_HOME=D:/ram/maven3, env.PROGRAMFILES=C:\Program Files (x86), java.vm.specification.version=1.8, env.PROGRAMDATA=C:\ProgramData, awt.toolkit=sun.awt.windows.WToolkit, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, java.ext.dirs=D:\JDK8\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, os.version=6.1, user.home=D:\Users\rambabum, java.vm.vendor=Oracle Corporation, env.VIEWCLIENT_MACHINE_DOMAIN=(none), env.PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig, env.USERDNSDOMAIN=REG1.1BANK.DBS.COM, env.JAVA_HOME=D:/JDK8/jdk1.8.0_60, version.jaxb2-maven-plugin=2.2, user.dir=D:\ram\jaxb-examples-master, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.VIEWCLIENT_BROKER_DOMAINNAME=REG1, env.PWD=D:/ram/jaxb-examples-master, env.FP_NO_HOST_CHECK=NO, env.VIEWCLIENT_BROKER_REMOTE_IP_ADDRESS=10.216.48.100, env.JAD_HOME=C:\Program Files\IBM9\SDP\jdk\jre\bin, sun.cpu.endian=little, env.ALLUSERSPROFILE=C:\ProgramData, env.TMPDIR=D:\Users\rambabum\AppData\Local\Temp, env.PROCESSOR_ARCHITECTURE=x86, java.vm.version=25.60-b23, java.class.path=D:/ram/maven3/boot/plexus-classworlds-2.5.2.jar, env.=::=::\, org.slf4j.simpleLogger.defaultLogLevel=debug, env.HOMEPATH=\Users\rambabum, env.UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77, os.arch=x86, maven.build.version=Apache Maven 3.2.5 (12a6b3acb947671f09b81f49094c53f426d8cea1; 2014-12-14T22:59:23+05:30), env.SESSIONNAME=Console, sun.java.launcher=SUN_STANDARD, java.vm.specification.vendor=Oracle Corporation, file.separator=\, java.runtime.version=1.8.0_60-b27, version.maven-compiler-plugin=3.5.1, env.VIEWCLIENT_LAUNCH_SESSIONTYPE=DESKTOP, sun.boot.class.path=D:\JDK8\jdk1.8.0_60\jre\lib\resources.jar;D:\JDK8\jdk1.8.0_60\jre\lib\rt.jar;D:\JDK8\jdk1.8.0_60\jre\lib\sunrsasign.jar;D:\JDK8\jdk1.8.0_60\jre\lib\jsse.jar;D:\JDK8\jdk1.8.0_60\jre\lib\jce.jar;D:\JDK8\jdk1.8.0_60\jre\lib\charsets.jar;D:\JDK8\jdk1.8.0_60\jre\lib\jfr.jar;D:\JDK8\jdk1.8.0_60\jre\classes, env.EXEPATH=C:\Program Files\Git, maven.version=3.2.5, env.TEMP=D:\Users\rambabum\AppData\Local\Temp, user.country=SG, maven.home=D:\ram\maven3, env.SHELL=C:\Program Files\Git\usr\bin\bash, env.LIB=;C:\PROGRA~2\IBM\SQLLIB\LIB, java.vendor=Oracle Corporation, java.specification.version=1.8, sun.arch.data.model=32, env.MSYSTEM=MINGW64, env.VIEWCLIENT_LOGGEDON_USERNAME=user}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory D:\ram\jaxb-examples-master\src\main\resources-gen
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 2 resources
+[DEBUG] file Common.xsd has a filtered file extension
+[DEBUG] copy D:\ram\jaxb-examples-master\src\main\resources-gen\schemagen\Common.xsd to D:\ram\jaxb-examples-master\target\classes\schemagen\Common.xsd
+[DEBUG] file sun-jaxb.episode has a filtered file extension
+[DEBUG] copy D:\ram\jaxb-examples-master\src\main\resources-gen\schemagen\META-INF\sun-jaxb.episode to D:\ram\jaxb-examples-master\target\classes\schemagen\META-INF\sun-jaxb.episode
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jaxb-examples ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=188, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=51, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=73, DefaultDependencyCollector.collectTime=406, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.5.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]       commons-io:commons-io:jar:2.4:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.7:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.7:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.7:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.5.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.5.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.5.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.5.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.7
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:3.0
+[DEBUG]   Excluded: org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-settings-builder:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-model-builder:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-aether-provider:jar:3.0
+[DEBUG]   Excluded: org.sonatype.aether:aether-impl:jar:1.7
+[DEBUG]   Excluded: org.sonatype.aether:aether-spi:jar:1.7
+[DEBUG]   Excluded: org.sonatype.aether:aether-api:jar:1.7
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-classworlds:jar:2.2.3
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:2.2.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.5.1, parent: sun.misc.Launcher$AppClassLoader@10dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = D:\ram\jaxb-examples-master
+[DEBUG]   (f) buildDirectory = D:\ram\jaxb-examples-master\target
+[DEBUG]   (f) classpathElements = [D:\ram\jaxb-examples-master\target\classes, D:\m2\com\migesok\jaxb-java-time-adapters\1.1.3\jaxb-java-time-adapters-1.1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [D:\ram\jaxb-examples-master\src\main\java, D:\ram\jaxb-examples-master\src\main\java-gen]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = D:\ram\jaxb-examples-master\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = D:\ram\jaxb-examples-master\target\classes
+[DEBUG]   (f) project = MavenProject: de.tse:jaxb-examples:0.0.1-SNAPSHOT @ D:\ram\jaxb-examples-master\pom.xml
+[DEBUG]   (f) projectArtifact = de.tse:jaxb-examples:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7d8516
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [D:\ram\jaxb-examples-master\src\main\java
+ D:\ram\jaxb-examples-master\src\main\java-gen]
+[DEBUG] Classpath: [D:\ram\jaxb-examples-master\target\classes
+ D:\m2\com\migesok\jaxb-java-time-adapters\1.1.3\jaxb-java-time-adapters-1.1.3.jar]
+[DEBUG] Output directory: D:\ram\jaxb-examples-master\target\classes
+[DEBUG] Adding D:\ram\jaxb-examples-master\target\generated-sources\annotations to compile source roots:
+  D:\ram\jaxb-examples-master\src\main\java
+  D:\ram\jaxb-examples-master\src\main\java-gen
+[DEBUG] New compile source roots:
+  D:\ram\jaxb-examples-master\src\main\java
+  D:\ram\jaxb-examples-master\src\main\java-gen
+  D:\ram\jaxb-examples-master\target\generated-sources\annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java\de\tse\jaxb\examples\_03_ObjectToFile_Complex.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java-gen\de\tse\jaxb\examples\dictionary\DictionaryEntryListType.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java\de\tse\jaxb\examples\objects\Street.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java-gen\de\tse\jaxb\examples\dictionary\package-info.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java\de\tse\jaxb\examples\_02_FileToObject.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java-gen\de\tse\jaxb\examples\dictionary\ObjectFactory.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java-gen\de\tse\jaxb\examples\dictionary\DictionaryEntryType.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java\de\tse\jaxb\examples\objects\Person.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java\de\tse\jaxb\examples\objects\SimplePerson.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java\de\tse\jaxb\examples\_04_FileToObject_Complex_with_Schema.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java\de\tse\jaxb\examples\_01_ObjectToFile.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java-gen\de\tse\jaxb\examples\dictionary\Dictionary.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java\de\tse\jaxb\examples\objects\Address.java
+[DEBUG] Stale source detected: D:\ram\jaxb-examples-master\src\main\java\de\tse\jaxb\examples\objects\City.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  D:\ram\jaxb-examples-master\target\classes
+[DEBUG]  D:\m2\com\migesok\jaxb-java-time-adapters\1.1.3\jaxb-java-time-adapters-1.1.3.jar
+[DEBUG] Source roots:
+[DEBUG]  D:\ram\jaxb-examples-master\src\main\java
+[DEBUG]  D:\ram\jaxb-examples-master\src\main\java-gen
+[DEBUG]  D:\ram\jaxb-examples-master\target\generated-sources\annotations
+[DEBUG] Command line options:
+[DEBUG] -d D:\ram\jaxb-examples-master\target\classes -classpath D:\ram\jaxb-examples-master\target\classes;D:\m2\com\migesok\jaxb-java-time-adapters\1.1.3\jaxb-java-time-adapters-1.1.3.jar; -sourcepath D:\ram\jaxb-examples-master\src\main\java;D:\ram\jaxb-examples-master\src\main\java-gen;D:\ram\jaxb-examples-master\target\generated-sources\annotations; -s D:\ram\jaxb-examples-master\target\generated-sources\annotations -g -nowarn -target 1.8 -source 1.8 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 14 source files to D:\ram\jaxb-examples-master\target\classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jaxb-examples ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@10dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = D:\ram\jaxb-examples-master\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: de.tse:jaxb-examples:0.0.1-SNAPSHOT @ D:\ram\jaxb-examples-master\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: D:\ram\jaxb-examples-master\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7d8516
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.OLDPWD=D:/ram/jaxb-examples-master, file.encoding.pkg=sun.io, env.ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal, version.build-helper-maven-plugin=1.7, java.home=D:\JDK8\jdk1.8.0_60\jre, env.DISPLAY=needs-to-be-defined, env.PROCESSOR_ARCHITEW6432=AMD64, env.VIEWCLIENT_CLIENT_ID=BAAAAN3vvmNwYjmirS4Sv8+llmQ=, classworlds.conf=D:/ram/maven3/bin/m2.conf, env.PCOMM_ROOT=C:\Program Files (x86)\IBM\Personal Communications\, java.endorsed.dirs=D:\JDK8\jdk1.8.0_60\jre\lib\endorsed, env.USERNAME=rambabum, sun.os.patch.level=Service Pack 1, java.vendor.url=http://java.oracle.com/, env.INCLUDE=C:\PROGRA~2\IBM\SQLLIB\INCLUDE;C:\PROGRA~2\IBM\SQLLIB\LIB, env.COMPUTERNAME=CBGEBZ1LC1-011, env.PRINTER=Send To OneNote 2010, java.version=1.8.0_60, env.VIEWCLIENT_IP_ADDRESS=10.216.48.100, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.USERPROFILE=D:\Users\rambabum, env.VIEWCLIENT_BROKER_URL=https://vdi-dev.corp.dbs.com:443, env.VIEWCLIENT_TYPE=Linux, env.PLINK_PROTOCOL=ssh, env.VIEWCLIENT_LANGUAGE=en_US.UTF-8, user.name=rambabum, env.LANG=en_US.UTF-8, sun.io.unicode.encoding=UnicodeLittle, sun.jnu.encoding=Cp1252, java.runtime.name=Java(TM) SE Runtime Environment, env.VIEWCLIENT_LAUNCH_ID=CBGEBZ1LC1, env.LOCALAPPDATA=D:\Users\rambabum\AppData\Local, env.SSH_ASKPASS=C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, env.VIEWCLIENT_TZID=Asia/Singapore, env.DB2INSTANCE=DB2, java.specification.name=Java Platform API Specification, user.timezone=Asia/Calcutta, user.script=, path.separator=;, env.MAVEN_CMD_LINE_ARGS=clean install -X, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 0, GenuineIntel, file.encoding=Cp1252, env.VIEWCLIENT_MAC_ADDRESS=C8:D3:FF:39:45:6B, env.HOME=D:\Users\rambabum, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, env.MANPATH=C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man, env.NUMBER_OF_PROCESSORS=2, env.APPDATA=D:\Users\rambabum\AppData\Roaming, env.WINDIR=C:\Windows, env.HOSTNAME=CBGEBZ1LC1-011, env.VIEWCLIENT_BROKER_GATEWAYTYPE=SG-cohosted, java.io.tmpdir=D:\Users\rambabum\AppData\Local\Temp\, user.language=en, line.separator=
+, env.VIEWCLIENT_BROKER_GATEWAYLOCATION=Internal, env.COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files, java.vm.info=mixed mode, env.DEFLOGDIR=C:\ProgramData\McAfee\DesktopProtection, sun.desktop=windows, java.vm.specification.name=Java Virtual Machine Specification, env.VIEWCLIENT_BROKER_DNS_NAME=W01SNXVDACS1A.reg1.1bank.dbs.com, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, version.jaxb-java-time-adapters=1.1.3, env.LOGONSERVER=\\W01G1BNKDCS0116, env.PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, env.VIEWCLIENT_BROKER_USERNAME=rambabum, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.PUBLIC=C:\Users\Public, env.USERDOMAIN=REG1, env.PROCESSOR_LEVEL=6, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.CLASSPATH=.;C:\PROGRA~2\IBM\SQLLIB\java\db2java.zip;C:\PROGRA~2\IBM\SQLLIB\java\db2jcc.jar;C:\PROGRA~2\IBM\SQLLIB\java\sqlj.zip;C:\PROGRA~2\IBM\SQLLIB\java\db2jcc_license_cu.jar;C:\PROGRA~2\IBM\SQLLIB\bin;C:\PROGRA~2\IBM\SQLLIB\java\common.jar, os.name=Windows 7, java.specification.vendor=Oracle Corporation, env.TMP=D:\Users\rambabum\AppData\Local\Temp, env.TERM=xterm, java.vm.name=Java HotSpot(TM) Client VM, env.VIEWCLIENT_MACHINE_NAME=HPc8d3ff39456b, env.OS=Windows_NT, java.library.path=D:\JDK8\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\ram\maven3\bin\;D:\JDK8\jdk1.8.0_60\bin\;D:\ram\maven3\bin\;D:\JDK8\jdk1.8.0_60\bin\;D:\Users\rambabum\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\Users\rambabum\bin;C:\Java\jdk1.6.0_24\bin;.;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\IBM\Personal Communications;C:\Program Files (x86)\IBM\Trace Facility;C:\Java\jdk1.6.0_24\bin;.;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\IBM\Personal Communications;C:\Program Files (x86)\IBM\Trace Facility;C:\Program Files\IBM9\SDP\jdk\jre\bin\bin;.;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.;.;., env.PROGRAMW6432=C:\Program Files, env.PATH=D:\ram\maven3\bin\;D:\JDK8\jdk1.8.0_60\bin\;D:\ram\maven3\bin\;D:\JDK8\jdk1.8.0_60\bin\;D:\Users\rambabum\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\Users\rambabum\bin;C:\Java\jdk1.6.0_24\bin;.;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\IBM\Personal Communications;C:\Program Files (x86)\IBM\Trace Facility;C:\Java\jdk1.6.0_24\bin;.;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\IBM\Personal Communications;C:\Program Files (x86)\IBM\Trace Facility;C:\Program Files\IBM9\SDP\jdk\jre\bin\bin;.;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.;., env.INFOPATH=C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info, java.class.version=52.0, env.SHLVL=1, env.VIEWCLIENT_PROTOCOL=PCOIP, env.HOMEDRIVE=D:, env.SYSTEMROOT=C:\Windows, env.VIEWCLIENT_WINDOWS_TIMEZONE=Singapore Standard Time, env.COMSPEC=C:\Windows\system32\cmd.exe, sun.boot.library.path=D:\JDK8\jdk1.8.0_60\jre\bin, project.build.sourceEncoding=UTF-8, env.SYSTEMDRIVE=C:, env.PROCESSOR_REVISION=3f00, env.VSEDEFLOGDIR=C:\ProgramData\McAfee\DesktopProtection, sun.management.compiler=HotSpot Client Compiler, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, user.variant=, env.VIEWCLIENT_BROKER_TUNNELED=false, env.M3_HOME=D:/ram/maven3, env.PROGRAMFILES=C:\Program Files (x86), java.vm.specification.version=1.8, env.PROGRAMDATA=C:\ProgramData, awt.toolkit=sun.awt.windows.WToolkit, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, java.ext.dirs=D:\JDK8\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, os.version=6.1, user.home=D:\Users\rambabum, java.vm.vendor=Oracle Corporation, env.VIEWCLIENT_MACHINE_DOMAIN=(none), env.PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig, env.USERDNSDOMAIN=REG1.1BANK.DBS.COM, env.JAVA_HOME=D:/JDK8/jdk1.8.0_60, version.jaxb2-maven-plugin=2.2, user.dir=D:\ram\jaxb-examples-master, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.VIEWCLIENT_BROKER_DOMAINNAME=REG1, env.PWD=D:/ram/jaxb-examples-master, env.FP_NO_HOST_CHECK=NO, env.VIEWCLIENT_BROKER_REMOTE_IP_ADDRESS=10.216.48.100, env.JAD_HOME=C:\Program Files\IBM9\SDP\jdk\jre\bin, sun.cpu.endian=little, env.ALLUSERSPROFILE=C:\ProgramData, env.TMPDIR=D:\Users\rambabum\AppData\Local\Temp, env.PROCESSOR_ARCHITECTURE=x86, java.vm.version=25.60-b23, java.class.path=D:/ram/maven3/boot/plexus-classworlds-2.5.2.jar, env.=::=::\, org.slf4j.simpleLogger.defaultLogLevel=debug, env.HOMEPATH=\Users\rambabum, env.UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77, os.arch=x86, maven.build.version=Apache Maven 3.2.5 (12a6b3acb947671f09b81f49094c53f426d8cea1; 2014-12-14T22:59:23+05:30), env.SESSIONNAME=Console, sun.java.launcher=SUN_STANDARD, java.vm.specification.vendor=Oracle Corporation, file.separator=\, java.runtime.version=1.8.0_60-b27, version.maven-compiler-plugin=3.5.1, env.VIEWCLIENT_LAUNCH_SESSIONTYPE=DESKTOP, sun.boot.class.path=D:\JDK8\jdk1.8.0_60\jre\lib\resources.jar;D:\JDK8\jdk1.8.0_60\jre\lib\rt.jar;D:\JDK8\jdk1.8.0_60\jre\lib\sunrsasign.jar;D:\JDK8\jdk1.8.0_60\jre\lib\jsse.jar;D:\JDK8\jdk1.8.0_60\jre\lib\jce.jar;D:\JDK8\jdk1.8.0_60\jre\lib\charsets.jar;D:\JDK8\jdk1.8.0_60\jre\lib\jfr.jar;D:\JDK8\jdk1.8.0_60\jre\classes, env.EXEPATH=C:\Program Files\Git, maven.version=3.2.5, env.TEMP=D:\Users\rambabum\AppData\Local\Temp, user.country=SG, maven.home=D:\ram\maven3, env.SHELL=C:\Program Files\Git\usr\bin\bash, env.LIB=;C:\PROGRA~2\IBM\SQLLIB\LIB, java.vendor=Oracle Corporation, java.specification.version=1.8, sun.arch.data.model=32, env.MSYSTEM=MINGW64, env.VIEWCLIENT_LOGGEDON_USERNAME=user}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory D:\ram\jaxb-examples-master\src\test\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory D:\ram\jaxb-examples-master\src\test\resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ jaxb-examples ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.5.1, parent: sun.misc.Launcher$AppClassLoader@10dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = D:\ram\jaxb-examples-master
+[DEBUG]   (f) buildDirectory = D:\ram\jaxb-examples-master\target
+[DEBUG]   (f) classpathElements = [D:\ram\jaxb-examples-master\target\test-classes, D:\ram\jaxb-examples-master\target\classes, D:\m2\com\migesok\jaxb-java-time-adapters\1.1.3\jaxb-java-time-adapters-1.1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [D:\ram\jaxb-examples-master\src\test\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = D:\ram\jaxb-examples-master\target\generated-test-sources\test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = D:\ram\jaxb-examples-master\target\test-classes
+[DEBUG]   (f) project = MavenProject: de.tse:jaxb-examples:0.0.1-SNAPSHOT @ D:\ram\jaxb-examples-master\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7d8516
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jaxb-examples ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=345, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.12.4:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.8:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.12.4
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.8
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: junit:junit:jar:3.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4, parent: sun.misc.Launcher$AppClassLoader@10dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test' with basic configurator -->
+[DEBUG]   (s) basedir = D:\ram\jaxb-examples-master
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = D:\ram\jaxb-examples-master\target\classes
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///D:/m2/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.12.4:, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.12.4:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:3.0.8:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {com.migesok:jaxb-java-time-adapters=com.migesok:jaxb-java-time-adapters:jar:1.1.3:compile}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+    proxy: 10.5.1.26:8080
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = D:\ram\jaxb-examples-master\target\surefire-reports
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) testClassesDirectory = D:\ram\jaxb-examples-master\target\test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = D:\ram\jaxb-examples-master\src\test\java
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = D:\ram\jaxb-examples-master
+[DEBUG]   (s) project = MavenProject: de.tse:jaxb-examples:0.0.1-SNAPSHOT @ D:\ram\jaxb-examples-master\pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@7d8516
+[DEBUG] -- end configuration --
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jaxb-examples ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=74, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=172, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:runtime
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.2:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.2
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.4:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@10dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.4:jar' with basic configurator -->
+[DEBUG]   (f) classesDirectory = D:\ram\jaxb-examples-master\target\classes
+[DEBUG]   (f) defaultManifestFile = D:\ram\jaxb-examples-master\target\classes\META-INF\MANIFEST.MF
+[DEBUG]   (f) finalName = jaxb-examples-0.0.1-SNAPSHOT
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = D:\ram\jaxb-examples-master\target
+[DEBUG]   (f) project = MavenProject: de.tse:jaxb-examples:0.0.1-SNAPSHOT @ D:\ram\jaxb-examples-master\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7d8516
+[DEBUG]   (f) skipIfEmpty = false
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[DEBUG] isUp2date: false (Destination D:\ram\jaxb-examples-master\target\jaxb-examples-0.0.1-SNAPSHOT.jar not found.)
+[INFO] Building jar: D:\ram\jaxb-examples-master\target\jaxb-examples-0.0.1-SNAPSHOT.jar
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory de/
+[DEBUG] adding directory de/tse/
+[DEBUG] adding directory de/tse/jaxb/
+[DEBUG] adding directory de/tse/jaxb/examples/
+[DEBUG] adding directory de/tse/jaxb/examples/dictionary/
+[DEBUG] adding directory de/tse/jaxb/examples/objects/
+[DEBUG] adding directory schemagen/
+[DEBUG] adding directory schemagen/META-INF/
+[DEBUG] adding entry de/tse/jaxb/examples/dictionary/Dictionary.class
+[DEBUG] adding entry de/tse/jaxb/examples/dictionary/DictionaryEntryListType.class
+[DEBUG] adding entry de/tse/jaxb/examples/dictionary/DictionaryEntryType.class
+[DEBUG] adding entry de/tse/jaxb/examples/dictionary/ObjectFactory.class
+[DEBUG] adding entry de/tse/jaxb/examples/dictionary/package-info.class
+[DEBUG] adding entry de/tse/jaxb/examples/objects/Address.class
+[DEBUG] adding entry de/tse/jaxb/examples/objects/City.class
+[DEBUG] adding entry de/tse/jaxb/examples/objects/Person.class
+[DEBUG] adding entry de/tse/jaxb/examples/objects/SimplePerson.class
+[DEBUG] adding entry de/tse/jaxb/examples/objects/Street.class
+[DEBUG] adding entry de/tse/jaxb/examples/_01_ObjectToFile.class
+[DEBUG] adding entry de/tse/jaxb/examples/_02_FileToObject.class
+[DEBUG] adding entry de/tse/jaxb/examples/_03_ObjectToFile_Complex.class
+[DEBUG] adding entry de/tse/jaxb/examples/_04_FileToObject_Complex_with_Schema.class
+[DEBUG] adding entry schemagen/Common.xsd
+[DEBUG] adding entry schemagen/META-INF/sun-jaxb.episode
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/de.tse/
+[DEBUG] adding directory META-INF/maven/de.tse/jaxb-examples/
+[DEBUG] adding entry META-INF/maven/de.tse/jaxb-examples/pom.xml
+[DEBUG] adding entry META-INF/maven/de.tse/jaxb-examples/pom.properties
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ jaxb-examples ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=94, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@10dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = de.tse:jaxb-examples:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///D:/m2/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = jar
+[DEBUG]   (f) pomFile = D:\ram\jaxb-examples-master\pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing D:\ram\jaxb-examples-master\target\jaxb-examples-0.0.1-SNAPSHOT.jar to D:\m2\de\tse\jaxb-examples\0.0.1-SNAPSHOT\jaxb-examples-0.0.1-SNAPSHOT.jar
+[DEBUG] Writing tracking file D:\m2\de\tse\jaxb-examples\0.0.1-SNAPSHOT\_remote.repositories
+[INFO] Installing D:\ram\jaxb-examples-master\pom.xml to D:\m2\de\tse\jaxb-examples\0.0.1-SNAPSHOT\jaxb-examples-0.0.1-SNAPSHOT.pom
+[DEBUG] Writing tracking file D:\m2\de\tse\jaxb-examples\0.0.1-SNAPSHOT\_remote.repositories
+[DEBUG] Installing de.tse:jaxb-examples:0.0.1-SNAPSHOT/maven-metadata.xml to D:\m2\de\tse\jaxb-examples\0.0.1-SNAPSHOT\maven-metadata-local.xml
+[DEBUG] Installing de.tse:jaxb-examples/maven-metadata.xml to D:\m2\de\tse\jaxb-examples\maven-metadata-local.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.035 s
+[INFO] Finished at: 2018-01-04T16:59:55+05:30
+[INFO] Final Memory: 14M/34M
+[INFO] ------------------------------------------------------------------------
